@@ -5,6 +5,8 @@ import java.lang.reflect.Array;
 /**
  * Created by SunYing on 2017/6/14.
  */
+
+//这里不能删除T类型的标识,因为下面需要用到这个
 public class GenericArrayWithTypeToken<T> {
     private T[] array;
 
